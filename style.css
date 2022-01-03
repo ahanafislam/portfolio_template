@@ -33,10 +33,18 @@ h1{
 
 .btn{
     text-decoration: none;
+    text-transform: uppercase;
     background-image: linear-gradient(to left,lightsalmon, tomato);
     color: #fff;
     padding: 10px 40px;
     font-weight: 700;
     border-radius: 5px;
-    margin-top: 5%;
+}
+
+.dream-big{
+    display: flex;
+    margin-top: 5rem;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
