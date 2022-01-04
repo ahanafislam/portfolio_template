@@ -17,7 +17,11 @@ h1{
     font-size: 50px;
 }
 
-.text-orenge{
+h2{
+    font-size: 35px;
+}
+
+.text-orange{
     color: #ffa500;
 }
 
@@ -47,4 +51,45 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+
+.experiences{
+    margin-top: 5%;
+}
+
+.experiences-items{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.experiences-items .half-width{
+    border-radius: 7px;
+    padding: 0 2%;
+    box-shadow: 5px 5px 25px #666;
+} 
+
+#fullStack{
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#fullStack{
+    border-left: 7px solid;
+    border-image: linear-gradient(to top,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#babyweb{
+    border-left: 7px solid;
+    border-image: linear-gradient(to top,#d57aff, #490085);
+    border-image-slice: 1;
+}
+
+footer p{
+    margin-top: 2rem;
+    text-align: center;
+    color: #666;
 }
